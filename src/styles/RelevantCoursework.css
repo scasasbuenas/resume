@@ -1,0 +1,27 @@
+.coursework-container {
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  gap: 2rem;
+}
+
+.area {
+  font-weight: bold;
+}
+
+p {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .coursework-container {
+    grid-template-columns: max-content max-content;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .coursework-container {
+    grid-template-columns: max-content;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,20 @@
+.section-title {
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.small-technologies {
+  color: #545454;
+} 
+
+ul {
+  margin: 0.2rem 0;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.2rem;
+  text-align: justify;
+  text-justify: inter-word;
+}

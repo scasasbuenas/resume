@@ -1,0 +1,11 @@
+.institution {
+  font-weight: bold;
+}
+
+.position {
+  font-style: italic;
+}
+
+.supervisor {
+  color: #666;
+}
