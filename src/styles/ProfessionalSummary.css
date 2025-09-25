@@ -1,0 +1,11 @@
+.summary-content {
+  text-align: justify;
+  line-height: 1.4;
+  margin: 0;
+}
+
+@media print {
+  .summary-content {
+    break-inside: avoid;
+  }
+}

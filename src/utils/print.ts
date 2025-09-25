@@ -97,7 +97,7 @@ const getPdfConfig = (
 // Main print function
 export const generatePdf = async (): Promise<void> => {
   const printOptions: PrintOptions = {
-    margin: 25.4,  // 1 inch in mm
+    margin: 12.7,  // 0.5 inch in mm (reduced from 1 inch)
     a4Width: 210,  // A4 width in mm
     baseScale: 10,
     baseFontSize: '10pt'

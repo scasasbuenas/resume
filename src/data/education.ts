@@ -11,6 +11,15 @@ export const EDUCATION: Education[] = [
         gpa: "4.10/5.00",
     },
     {
+        degree: "International Academic Exchange Program - Masters in Computer Engineering",
+        organization: "Universidade de Lisboa - Instituto Superior Técnico",
+        city: "Lisboa",
+        country: "Portugal",
+        startDate: new Date("2025-09-01T12:00:00-05:00"),
+        graduationDate: new Date("2026-01-12T12:00:00-05:00"),
+        trueEndDate: new Date("2026-01-12T12:00:00-05:00"),
+    },
+    {
         degree: "Bachiller Académico",
         organization: "Colegio Hacienda los Alcaparros",
         city: "Bogotá",

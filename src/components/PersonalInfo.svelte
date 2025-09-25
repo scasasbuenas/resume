@@ -17,6 +17,7 @@
       </div>
       <div class="column">
         <p>GitHub: <a href={`https://github.com/${personalInfo.gitHubPath}`}>{personalInfo.gitHubPath}</a></p>
+        <p>Phone: <span style="font-size: 0.9em;">{personalInfo.phone}</span></p>
       </div>
     </div>
   </div>

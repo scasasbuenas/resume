@@ -5,4 +5,5 @@ export const PERSONAL_INFO: PersonalInfo = {
   email: "s.casasbuenas@uniandes.edu.co",
   linkedInPath: "santiago-casasbuenas",
   gitHubPath: "scasasbuenas",
+  phone: "+57 315 430 3094",
 }

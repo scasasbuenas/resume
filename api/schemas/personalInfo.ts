@@ -7,4 +7,5 @@ export const PersonalInfoSchema = z.object({
   email: z.string().email(),
   linkedInPath: z.string(),
   gitHubPath: z.string(),
+  phone: z.string().optional(),
 }); 
